@@ -88,7 +88,7 @@ button
 .divide
 {
     position: absolute;
-    border: 5px solid rgba(20, 132, 206, 0.774);
+    border: 5px solid rgba(20, 132, 206);
     background-color:  #55BCC9;
     
     z-index: 2 ;
