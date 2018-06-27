@@ -4,17 +4,24 @@ body
     font-size:12px;
     background-color: #55BCC9;
 }
+button
+{
+    background-color:#F87309;
+    border-color:#E24269;
+    border-radius: 15%; 
+
+}
 .wrapper
 {
  margin: 5%;
 }
 .nav
 {   
-    left: 15%;
+    background-color:rgba(20, 132, 206);
+    border: 2px solid #55BCC9;
     position: fixed;
     text-align: center;
     z-index: 0;
-    background-color: transparent;
 }
 #nav1
 {
@@ -24,15 +31,22 @@ body
 }
 #nav2
 {
+    display: block;
     position: relative;
     border-radius: 20%;
     z-index: 1;
+    padding: 10px 0 0 0;
+}
+#username
+{
+    margin: 0 0 0 -3px;
 }
 #nav3
 {
     position: relative;
     border-radius: 20%;
     z-index: 1;
+    padding: 10px 0 0 0;
 
 }
 #nav4
@@ -40,20 +54,25 @@ body
     position: relative;
     border-radius: 20%;
     z-index: 1;
+    padding: 10px 0 0 0;
+}
+#search
+{
+    padding: 6% 0 0 0;
 }
 .checkout
 {
-    margin: 5px 5px 5px 50px;
-    float: right;
+    margin: 1%
+
 }
 .loginButton
 {
     position: relative;
-    left: 28%;
+    left: 27.5%;
+    padding: 1%;
 }
 .topPic
 {
-    left: 7%;
     position: relative;
     z-index: -1;
 }
@@ -63,8 +82,12 @@ body
     position: absolute;
     z-index: 0;
     left: 25%;
-    bottom: 50%;
-    border: 5px solid black;
+    bottom: 35%;
+    border: 5.5px solid black;
+}
+.periodTable 
+{
+
 }
 .divide
 {
@@ -76,6 +99,7 @@ body
 }
 .products
 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ,'Times New Roman', Times, serif;
     position: relative;
     border: 5px solid  transparent;
     left: 0%;
@@ -83,9 +107,10 @@ body
 }
 .description
 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ,'Times New Roman', Times, serif;
     position: absolute;
     margin: 0 0 0 110%;
-    bottom: 65%;
+    bottom: 50%;
 }
 .picsOfProducts
 {
@@ -108,5 +133,11 @@ body
 .list1
 {
     list-style-type: none;
+    text-align: center;
+}
+#listItem
+{
+    display: inline-block;
+    padding: 0% 5% 0% 5%;
 }
 
